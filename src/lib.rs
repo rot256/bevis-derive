@@ -1,6 +1,5 @@
 use std::vec;
 
-use proc_macro;
 use proc_macro2::{Ident, TokenStream};
 
 use quote::{format_ident, quote};

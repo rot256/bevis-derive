@@ -46,7 +46,7 @@ pub fn impl_absorb(input: &syn::DeriveInput) -> proc_macro::TokenStream {
 
             Data::Enum(ref data) => {
                 // no need to absorb empty enum
-                if data.variants.len() == 0 {
+                if data.variants.is_empty() {
                     return quote! {};
                 }
 

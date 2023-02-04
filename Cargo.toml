@@ -3,6 +3,8 @@ name = "bevis-derive"
 version = "0.1.0"
 edition = "2021"
 authors = ["Mathias Hall-Andersen"]
+repository = "https://github.com/rot256/bevis"
+license = "MIT"
 
 [lib]
 bevis = "0.1"
